@@ -14,6 +14,8 @@
     <meta property="og:description" content="General consultations · Medical aids accepted · Occupational health · Pharmacy services. Mon–Fri 08:00–17:00, Sat 08:00–13:00.">
     <meta property="og:url" content="{{ url('/') }}">
 
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     {{-- Local SEO: structured data --}}
     @verbatim
     <script type="application/ld+json">
@@ -88,6 +90,8 @@
         </svg>
     </a>
 
+    @include('partials.chatbot')
+
     <footer class="site-footer">
         <div class="container site-footer__grid">
             <div>
@@ -138,6 +142,7 @@
             el.classList.add(open ? 'is-open' : 'is-closed');
         })();
     </script>
+    <script src="{{ asset('js/chatbot.js') }}" defer></script>
     @yield('scripts')
 </body>
 </html>
