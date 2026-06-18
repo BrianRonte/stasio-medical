@@ -101,7 +101,7 @@
             <div>
                 <p class="site-footer__heading">Contact</p>
                 <p>Tel: <a href="tel:+263552563492">+263 55 256 3492</a><br>
-                   Mobile: <a href="tel:+263776742125">+263 77 674 2125</a> · <a href="tel:+263719742125">+263 71 974 2125</a><br>
+                   <!-- Mobile: <a href="tel:+263776742125">+263 77 674 2125</a> · <a href="tel:+263719742125">+263 71 974 2125</a><br> -->
                    WhatsApp: <a href="https://wa.me/263787421248">+263 78 742 1248</a><br>
                    VOIP: <a href="tel:+2638612003100">+263 861 200 3100</a><br>
                    <a href="mailto:info@stasiomedicalcentre.co.zw">info@stasiomedicalcentre.co.zw</a></p>
